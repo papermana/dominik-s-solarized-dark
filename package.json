@@ -1,0 +1,21 @@
+{
+    "name": "dominik-s-solarized-dark",
+    "displayName": "Dominik's Solarized Dark",
+    "description": "",
+    "version": "0.0.1",
+    "engines": {
+        "vscode": "^1.32.0"
+    },
+    "categories": [
+        "Themes"
+    ],
+    "contributes": {
+        "themes": [
+            {
+                "label": "Dominik's Solarized Dark",
+                "uiTheme": "vs-dark",
+                "path": "./themes/Dominik's Solarized Dark-color-theme.json"
+            }
+        ]
+    }
+}
