@@ -1,4 +1,5 @@
 {
+  "name": "Dominik's Solarized Dark",
   "tokenColors": [
     {
       "settings": {
@@ -43,7 +44,10 @@
     },
     {
       "name": "Variable",
-      "scope": ["variable.language", "variable.other"],
+      "scope": [
+        "variable.language",
+        "variable.other"
+      ],
       "settings": {
         "foreground": "#268BD2"
       }
@@ -65,7 +69,10 @@
     },
     {
       "name": "Class name",
-      "scope": ["entity.name.class", "entity.name.type.class"],
+      "scope": [
+        "entity.name.class",
+        "entity.name.type.class"
+      ],
       "settings": {
         "foreground": "#268BD2"
       }
@@ -96,21 +103,30 @@
     },
     {
       "name": "Built-in constant",
-      "scope": ["constant.language", "meta.preprocessor"],
+      "scope": [
+        "constant.language",
+        "meta.preprocessor"
+      ],
       "settings": {
         "foreground": "#B58900"
       }
     },
     {
       "name": "Support.construct",
-      "scope": ["support.function.construct", "keyword.other.new"],
+      "scope": [
+        "support.function.construct",
+        "keyword.other.new"
+      ],
       "settings": {
         "foreground": "#D30102"
       }
     },
     {
       "name": "User-defined constant",
-      "scope": ["constant.character", "constant.other"],
+      "scope": [
+        "constant.character",
+        "constant.other"
+      ],
       "settings": {
         "foreground": "#CB4B16"
       }
@@ -171,7 +187,10 @@
     },
     {
       "name": "Library class/type",
-      "scope": ["support.type", "support.class"],
+      "scope": [
+        "support.type",
+        "support.class"
+      ],
       "settings": {
         "foreground": "#859900"
       }
@@ -202,7 +221,10 @@
     },
     {
       "name": "Quoted String",
-      "scope": ["string.quoted.double", "string.quoted.single"],
+      "scope": [
+        "string.quoted.double",
+        "string.quoted.single"
+      ],
       "settings": {
         "foreground": "#269186"
       }
@@ -489,7 +511,10 @@
     },
     {
       "name": "HTML: Embeddable",
-      "scope": ["source.css.embedded.html", "comment.block.html"],
+      "scope": [
+        "source.css.embedded.html",
+        "comment.block.html"
+      ],
       "settings": {
         "fontStyle": "italic",
         "foreground": "#819090"
@@ -526,7 +551,10 @@
     },
     {
       "name": "Ruby: Keyword Control",
-      "scope": ["keyword.control.ruby", "keyword.control.def.ruby"],
+      "scope": [
+        "keyword.control.ruby",
+        "keyword.control.def.ruby"
+      ],
       "settings": {
         "fontStyle": "bold",
         "foreground": "#738A05"
@@ -534,7 +562,10 @@
     },
     {
       "name": "Ruby: Class",
-      "scope": ["keyword.control.class.ruby", "meta.class.ruby"],
+      "scope": [
+        "keyword.control.class.ruby",
+        "meta.class.ruby"
+      ],
       "settings": {
         "foreground": "#748B00"
       }
@@ -572,7 +603,10 @@
     },
     {
       "name": "Ruby: Constant",
-      "scope": ["constant.language.ruby", "constant.numeric.ruby"],
+      "scope": [
+        "constant.language.ruby",
+        "constant.numeric.ruby"
+      ],
       "settings": {
         "foreground": "#269186"
       }
@@ -690,7 +724,10 @@
     },
     {
       "name": "PHP: ::",
-      "scope": ["support.class.php", "keyword.operator.class"],
+      "scope": [
+        "support.class.php",
+        "keyword.operator.class"
+      ],
       "settings": {
         "fontStyle": "",
         "foreground": "#536871"
@@ -786,14 +823,11 @@
     "widget.shadow": "#000000c0",
     "selection.background": "#073642",
     "focusBorder": "#2aa198",
-
     "button.background": "#2aa198",
     "button.foreground": "#fdf6e3",
-
     "input.background": "#002b36",
     "input.foreground": "#839496",
     "inputOption.activeBorder": "#2aa198",
-
     "editor.background": "#002b36",
     "editorCursor.foreground": "#2aa198",
     "editor.foreground": "#839496",
@@ -801,17 +835,14 @@
     "editor.lineHighlightBackground": "#0A2933",
     "editor.selectionBackground": "#073642",
     "editor.selectionForeground": "#93a1a1",
-
     "activityBar.background": "#073642",
     "activityBar.foreground": "#fdf6e3",
     "activityBar.inactiveForeground": "#93a1a1",
     "activityBar.border": "#002b36",
     "activityBarBadge.background": "#d33682",
-
     "sideBar.background": "#073642",
     "sideBar.foreground": "#93a1a1",
     "sideBar.border": "#002b36",
-
     "editorGroupHeader.tabsBackground": "#073642",
     "tab.activeBackground": "#002b36",
     "tab.activeForeground": "#93a1a1",
@@ -819,21 +850,16 @@
     "tab.inactiveForeground": "#839496",
     "tab.hoverBackground": "#002b36",
     "tab.border": "#073642",
-
     "notifications.background": "#073642",
     "notifications.foreground": "#93a1a1",
-
     "editorWidget.background": "#073642",
-
     "statusBar.background": "#073642",
     "statusBar.foreground": "#93a1a1",
     "statusBar.noFolderBackground": "#073642",
     "statusBar.noFolderForeground": "#93a1a1",
-
     "titleBar.activeBackground": "#073642",
     "titleBar.activeForeground": "#93a1a1",
     "titleBar.inactiveBackground": "#002b36",
     "titleBar.inactiveForeground": "#839496"
-  },
-  "name": "Dominik's Solarized Dark"
+  }
 }
