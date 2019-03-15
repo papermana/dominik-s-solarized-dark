@@ -19,7 +19,7 @@
     ]
   },
   "scripts": {
-    "start": "watchman -- trigger ./ build index.js -- node build.js && watchman watch ./",
+    "start": "watchman -- trigger ./ build 'src/*.js' -- node build.js && watchman watch ./",
     "build": "node build.js"
   }
 }
