@@ -1,40 +1,57 @@
 const flatten = require("./flatten");
 
+const base03 = "#002b36";
+const base02 = "#073642";
+const base01 = "#586e75";
+const base00 = "#657b83";
+const base0 = "#839496";
+const base1 = "#93a1a1";
+const base2 = "#eee8d5";
+const base3 = "#fdf6e3";
+const yellow = "#b58900";
+const orange = "#cb4b16";
+const red = "#dc322f";
+const magenta = "#d33682";
+const violet = "#6c71c4";
+const blue = "#268bd2";
+const cyan = "#2aa198";
+const green = "#859900";
+
 module.exports = flatten({
-  focusBorder: "#2aa198",
+  focusBorder: cyan,
 
   widget: {
     shadow: "#000000c0"
   },
 
   selection: {
-    background: "#073642"
+    background: base02
   },
 
   button: {
-    background: "#2aa198",
-    foreground: "#fdf6e3"
+    background: cyan,
+    foreground: base3
   },
 
   input: {
-    background: "#002b36",
-    foreground: "#839496"
+    background: base03,
+    foreground: base0
   },
 
   inputOption: {
-    activeBorder: "#2aa198"
+    activeBorder: cyan
   },
 
   editor: {
-    background: "#002b36",
-    foreground: "#839496",
+    background: base03,
+    foreground: base0,
     lineHighlightBackground: "#0A2933",
-    selectionBackground: "#073642",
-    selectionForeground: "#93a1a1"
+    selectionBackground: base02,
+    selectionForeground: base1
   },
 
   editorCursor: {
-    foreground: "#2aa198"
+    foreground: cyan
   },
 
   editorWhitespace: {
@@ -42,55 +59,55 @@ module.exports = flatten({
   },
 
   activityBar: {
-    background: "#073642",
-    foreground: "#fdf6e3",
-    inactiveForeground: "#93a1a1",
-    border: "#002b36"
+    background: base02,
+    foreground: base3,
+    inactiveForeground: base1,
+    border: base03
   },
 
   activityBarBadge: {
-    background: "#d33682"
+    background: magenta
   },
 
-  sidebar: {
-    background: "#073642",
-    foreground: "#93a1a1",
-    border: "#002b36"
+  sideBar: {
+    background: base02,
+    foreground: base1,
+    border: base03
   },
 
   editorGroupHeader: {
-    tabsBackground: "#073642"
+    tabsBackground: base02
   },
 
   tab: {
-    activeBackground: "#002b36",
-    activeForeground: "#93a1a1",
-    inactiveBackground: "#073642",
-    inactiveForeground: "#839496",
-    hoverBackground: "#002b36",
-    border: "#073642"
+    activeBackground: base03,
+    activeForeground: base1,
+    inactiveBackground: base02,
+    inactiveForeground: base0,
+    hoverBackground: base03,
+    border: base02
   },
 
   notifications: {
-    background: "#073642",
-    foreground: "#93a1a1"
+    background: base02,
+    foreground: base1
   },
 
   editorWidget: {
-    background: "#073642"
+    background: base02
   },
 
   statusBar: {
-    background: "#073642",
-    foreground: "#93a1a1",
-    noFolderBackground: "#073642",
-    noFolderForeground: "#93a1a1"
+    background: base02,
+    foreground: base1,
+    noFolderBackground: base02,
+    noFolderForeground: base1
   },
 
   titleBar: {
-    activeBackground: "#073642",
-    activeForeground: "#93a1a1",
-    inactiveBackground: "#002b36",
-    inactiveForeground: "#839496"
+    activeBackground: base02,
+    activeForeground: base1,
+    inactiveBackground: base03,
+    inactiveForeground: base0
   }
 });
