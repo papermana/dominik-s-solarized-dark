@@ -1,13 +1,13 @@
-# README
-## This is the README for your extension "dominik-s-solarized-dark"
-You can author your README using Visual Studio Code.  Here are some useful editor keyboard shortcuts:
+# Dominik's Solarized Dark
 
-* Split the editor (`Cmd+\` on macOS or `Ctrl+\` on Windows and Linux)
-* Toggle preview (`Shift+CMD+V` on macOS or `Shift+Ctrl+V` on Windows and Linux)
-* Press `Ctrl+Space` (Windows, Linux) or `Cmd+Space` (macOS) to see a list of Markdown snippets
+> Just another customized Solarized editor theme
 
-### For more information
-* [Visual Studio Code's Markdown Support](http://code.visualstudio.com/docs/languages/markdown)
-* [Markdown Syntax Reference](https://help.github.com/articles/markdown-basics/)
+**Work In Progress**
 
-**Enjoy!**
+## Development
+
+1. Get the content of this repo.
+2. Make sure you have `watchman` installed. If not, try `brew install watchman`.
+3. Run `yarn start` or `npm start`.
+4. Open a new editor window with the theme installed for testing purposes by pressing `F5`.
+5. Edit, commit etc.
