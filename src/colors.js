@@ -141,8 +141,8 @@ module.exports = flatten({
   titleBar: {
     activeBackground: base02,
     activeForeground: base1,
-    inactiveBackground: base03,
-    inactiveForeground: base0
+    inactiveBackground: darken(base02),
+    inactiveForeground: darken(base1)
   },
 
   badge: {
