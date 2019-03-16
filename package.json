@@ -21,6 +21,6 @@
   "scripts": {
     "build": "node build.js",
     "start": "watchman -- trigger ./ build 'src/*.js' -- node build.js && watchman watch ./",
-    "prepare": "npm run build"
+    "vscode:prepublish": "npm run build"
   }
 }
