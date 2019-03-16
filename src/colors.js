@@ -114,7 +114,6 @@ module.exports = flatten({
     activeForeground: base1,
     inactiveBackground: base02,
     inactiveForeground: base0,
-    hoverBackground: lighten(base02),
     border: transparent
   },
 
