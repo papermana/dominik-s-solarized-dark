@@ -1,7 +1,7 @@
 {
   "name": "dominik-s-solarized-dark",
   "displayName": "Dominik's Solarized Dark",
-  "description": "",
+  "description": "Just another customized Solarized editor theme",
   "version": "0.0.1",
   "engines": {
     "vscode": "^1.32.0"
