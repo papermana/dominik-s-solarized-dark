@@ -1,4 +1,9 @@
-.vscode/**
-.vscode-test/**
-.gitignore
-vsc-extension-quickstart.md
+# Ignore everything by default
+*
+*/**
+
+# Whitelist files that need to be packaged
+!themes/
+!CHANGELOG.md
+!package.json
+!README.md
