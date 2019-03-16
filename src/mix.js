@@ -5,7 +5,8 @@ const parseHex = hexColor => ({
 });
 
 const makeHex = ({ r, g, b }) =>
-  "#" + [r, g, b].map(decimal => decimal.toString(16)).join("");
+  "#" +
+  [r, g, b].map(decimal => decimal.toString(16).padStart(2, "0")).join("");
 
 const mix = (color1, color2, color2Weight = 0.5) => {
   const color1Rgb = parseHex(color1);
