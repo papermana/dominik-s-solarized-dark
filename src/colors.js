@@ -100,7 +100,7 @@ module.exports = flatten({
   },
 
   sideBarSectionHeader: {
-    background: base02,
+    background: lighten(base02),
     foreground: base1,
     border: transparent
   },
