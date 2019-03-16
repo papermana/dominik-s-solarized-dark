@@ -1,4 +1,5 @@
 const flatten = require("./flatten");
+const mix = require("./mix");
 
 const base03 = "#002b36";
 const base02 = "#073642";
@@ -16,6 +17,10 @@ const violet = "#6c71c4";
 const blue = "#268bd2";
 const cyan = "#2aa198";
 const green = "#859900";
+const hilight = base2 + "10";
+const transparent = "#00000000";
+
+const lighten = color => mix(color, base2, 0.1);
 
 module.exports = flatten({
   focusBorder: cyan,
@@ -47,7 +52,21 @@ module.exports = flatten({
     foreground: base0,
     lineHighlightBackground: "#0A2933",
     selectionBackground: base02,
-    selectionForeground: base1
+    selectionForeground: base1,
+    selectionHighlightBackground: hilight,
+    selectionHighlightBorder: transparent
+  },
+
+  editorGutter: {
+    background: base03,
+    addedBackground: green,
+    modifiedBackground: orange,
+    deletedBackground: red
+  },
+
+  editorLineNumber: {
+    foreground: base01,
+    activeForeground: base1
   },
 
   editorCursor: {
@@ -56,6 +75,11 @@ module.exports = flatten({
 
   editorWhitespace: {
     foreground: "#93A1A180"
+  },
+
+  diffEditor: {
+    insertedTextBackground: green,
+    removedTextBackground: red
   },
 
   activityBar: {
@@ -75,6 +99,12 @@ module.exports = flatten({
     border: base03
   },
 
+  sideBarSectionHeader: {
+    background: base02,
+    foreground: base1,
+    border: base03
+  },
+
   editorGroupHeader: {
     tabsBackground: base02
   },
@@ -84,7 +114,7 @@ module.exports = flatten({
     activeForeground: base1,
     inactiveBackground: base02,
     inactiveForeground: base0,
-    hoverBackground: base03,
+    hoverBackground: lighten(base02),
     border: base02
   },
 
@@ -104,10 +134,23 @@ module.exports = flatten({
     noFolderForeground: base1
   },
 
+  statusBarItem: {
+    hoverBackground: lighten(base02)
+  },
+
   titleBar: {
     activeBackground: base02,
     activeForeground: base1,
     inactiveBackground: base03,
     inactiveForeground: base0
+  },
+
+  badge: {
+    background: blue,
+    foreground: base3
+  },
+
+  progressBar: {
+    background: magenta
   }
 });
