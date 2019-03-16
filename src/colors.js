@@ -86,7 +86,7 @@ module.exports = flatten({
     background: base02,
     foreground: base3,
     inactiveForeground: base1,
-    border: base03
+    border: transparent
   },
 
   activityBarBadge: {
@@ -96,13 +96,13 @@ module.exports = flatten({
   sideBar: {
     background: base02,
     foreground: base1,
-    border: base03
+    border: transparent
   },
 
   sideBarSectionHeader: {
     background: base02,
     foreground: base1,
-    border: base03
+    border: transparent
   },
 
   editorGroupHeader: {
@@ -115,7 +115,7 @@ module.exports = flatten({
     inactiveBackground: base02,
     inactiveForeground: base0,
     hoverBackground: lighten(base02),
-    border: base02
+    border: transparent
   },
 
   notifications: {
