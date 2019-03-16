@@ -21,6 +21,7 @@ const hilight = base2 + "10";
 const transparent = "#00000000";
 
 const lighten = color => mix(color, base2, 0.1);
+const darken = color => mix(color, "#000000", 0.1);
 
 module.exports = flatten({
   focusBorder: cyan,
@@ -127,10 +128,10 @@ module.exports = flatten({
   },
 
   statusBar: {
-    background: base02,
-    foreground: base1,
-    noFolderBackground: base02,
-    noFolderForeground: base1
+    background: darken(base03),
+    foreground: darken(base1),
+    noFolderBackground: darken(base03),
+    noFolderForeground: darken(base1)
   },
 
   statusBarItem: {
