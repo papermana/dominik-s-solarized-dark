@@ -84,9 +84,9 @@ module.exports = flatten({
   },
 
   activityBar: {
-    background: base02,
-    foreground: base3,
-    inactiveForeground: base1,
+    background: darken(base02),
+    foreground: darken(base3),
+    inactiveForeground: darken(base1),
     border: transparent
   },
 
